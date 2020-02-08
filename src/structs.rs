@@ -17,7 +17,14 @@ impl Product {
             price: price
         }
     }
+    fn render_fullname(&self) -> String{
+        format!("{} {}",self.p_name,self.p_name)
+    }
 }
+
+//creating function 
+
+
 
 
 pub fn run(){
@@ -25,6 +32,6 @@ pub fn run(){
 
     let mut l = location(1,String::from("Bangalore"),3);
     //p.p_name=String::from("Macbook");
-    println!("{} - {} - {} ",p.id,p.p_name,p.price );
+    println!("{} ",p.render_fullname());
     println!("location {} - {} - {} ",l.0,l.1,l.2 );
 }
