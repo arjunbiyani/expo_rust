@@ -6,7 +6,7 @@ pub fn run()
     println!("This is from run function of test");
     
     //Positional Params
-    println!("these are positional args {0}. My Name is {0} {1}",a,b);
+    // println!("these are positional args {0}. My Name is {0} {1}",a,b);
 
     //Named Arguments 
     println!("{name} likes to {activity}",
@@ -15,12 +15,12 @@ pub fn run()
     );
 
     // Placeholder Traits
-    println!("Binary: {:b} Hex: {:x} Octo: {:o}",10,10,10 );
+    // println!("Binary: {:b} Hex: {:x} Octo: {:o}",10,10,10 );
 
     //Placeholder for debug triaits
-    println!("{:?}",("heo"));
+    // println!("{:?}",("heo"));
 
     // Basic Math 
-    println!("SUM 3+4 {}",3+4);
+    // println!("SUM 3+4 {}",3+4);
 
 }
