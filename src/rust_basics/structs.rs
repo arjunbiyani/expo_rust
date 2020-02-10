@@ -26,10 +26,6 @@ impl Product {
 }
 
 //creating function 
-
-
-
-
 pub fn run(){
     let mut p = Product::new(1,"Macbook",222);
    p.change_product_name("Macbook New");
