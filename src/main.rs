@@ -2,6 +2,7 @@
 extern crate diesel;
 extern crate dotenv;
 mod rust_basics;
+mod webservices;
 use std::env;
 
 
